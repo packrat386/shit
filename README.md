@@ -11,6 +11,10 @@ S.H.I.T stands for Security Heuristic Information Tooling. SHIT is a static anal
 * Does not return a nonzero exit code if violations are found, so as not to disrupt CI/CD. To use as a check, simply inspect the contents of the CRAP reports.
 * Unlike popular open source tools, ignoring "false positives" is not possible. 
 * Support for the top ten most popular languages on GitHub right out of the box!
+* Violations in CRAP reports are categorized into 3 helpful levels.
+  * `critical`
+  * `criticaler`
+  * `criticalest`
 
 ## Example
 
